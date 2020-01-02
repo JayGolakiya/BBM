@@ -7,9 +7,18 @@ Blood bank is a place where blood is collected from donors, typed, separated int
 In blood bank there are different kind of employees like Managers, Receptionists, Doctors, and Cashier. Coordination of these employees makes blood bank complete. In today’s system they have to manipulate everything manually. They need to keep record of donors and patients who has donated blood in past. <br>
 
 ### Users
-- Donor
-- Patient
-- Receptionist
-- Manager
-- Cashier
-- Anonymous
+- Patient <br>
+After login into system, patient or anyone on behalf of patient can view available donors in thier respective area and can request for blood to donor. <br>
+- Donor <br>
+Once they logged in, they can see available requests of patients and give his/her approval for donation and this will be notified to patients. <br>
+- Receptionist <br>
+On site of blood donation camp, they can view pre-registerd donors and update profiles of them. <br>
+- Manager <br>
+Manager can add receptionist and manage available blood in his/her blood bank. <br>
+- Anonymous <br>
+All above users can see nearest blood donation camps near their location. Donors can pre-registor for that. <br>
+## Tools and Technologies
+XAMPP - database server <br>
+MySQL - database <br>
+php - for backend coding <br>
+HTML, CSS, BOOTSTRAP 4, JavaScript, jQuery <br>
